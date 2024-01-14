@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header h1 {
+    background-color:rgb(155, 235, 5) ;
+    color:rgb(70, 67, 67);
+}
+
+header h4 {
+    margin: -1px;
+    color:rgb(70, 67, 67);
+}
+
+header p {
+    font-size:  small;
+}
+
+.inputsection{
+    display: flex;
+    flex-direction: column;
+}
+#squareSide {
+    margin-top: 10px;
+    outline:none;
+    border-radius:16px;
+    border-color: rgb(168, 239, 4);
+    padding: 10px;
+}
+
+#squareSide:focus {
+    border: solid rgb(70, 67, 67);
+}
+
+button {
+    margin-top: 10px;
+    background-color: #739072;
+    color: black;
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #356b05;
+    border:solid rgba(60, 141, 3, 0.95)
+}
+
+button:active {
+    background-color: #356b05;
+    transform: translateY();
+}
