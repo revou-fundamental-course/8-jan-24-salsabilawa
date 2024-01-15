@@ -1,33 +1,38 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header{
-    text-align: center;
-}
-
-header h1 {
-    background-color:rgb(155, 235, 5) ;
+    background-color: rgb(155, 235, 5);
     color:rgb(70, 67, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    height: 2cm;
 }
 
-header h4 {
+center h3 {
     margin: -1px;
     color:rgb(70, 67, 67);
 }
 
-header p {
+center p {
+    margin: 20px;
     font-size:  small;
 }
 
 .inputsection{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
 #squareSide {
     margin-top: 10px;
     outline:none;
-    border-radius:16px;
+    border-radius:20px;
     border-color: rgb(168, 239, 4);
     padding: 10px;
 }

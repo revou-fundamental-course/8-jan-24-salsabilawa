@@ -2,7 +2,7 @@ var squareSide = document.getElementById("squareSide")
 function btnluas(){
     var s = squareSide.value;
     var luas = s*s;
-    document.getElementById("hasilluas").innerHTML="Luas persegi dengan adalah " + luas;
+    document.getElementById("hasilluas").innerHTML="Luas persegi adalah " +luas ;
     document.getElementById("hasilkel").innerHTML="";
 }
 
@@ -17,4 +17,4 @@ function btnreset(){
     squareSide.value = "";
     document.getElementById("hasilluas").value = "";
     document.getElementById("hasilkel").value = "";
-}
+} 

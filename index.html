@@ -9,20 +9,30 @@
     <body>
         <header>
             <h1>Kalkulator Luas dan Keliling Persegi</h1>
-            <h4>Welcome to Kalkulator Luas dan Keliling Persegi</h4>
-            <p>Web ini digunakan untuk menghitung luas dan keliling persegi</p>
         </header>
+        <hr />
+        <center>
+            <h3>Welcome to Kalkulator Luas dan Keliling Persegi</h3>
+            <p>Web ini dibuat guna memenuhi tugas mini coding project revou</p>
+            <img src="css/persegi.png" 
+            width="200" height="200"/> 
+        </center>   
+        <p>Persegi memiliki rumus</p>
+        <p>Luas = Sisi x Sisi</p>
+        <p>Keliling = 4*Sisi</p>
+        <hr />
 
         <div class="inputsection">
             <label for="squareSide" id="lblsquareSide">Masukkan Sisi Persegi</label>
-            <input type="number" id="squareSide">
+            <input type="number" id="squareSide" placeholder="Nilai Sisi">
         </div>
         <div class="button">
-            <button onclick="btnluas()">Hitung luas</button>
-            <button onclick="btnkel()">Hitung kel</button>
+            <button onclick="btnluas()">Hitung Luas</button>
+            <button onclick="btnkel()">Hitung Keliling</button>
             <button onclick="btnreset()">Reset</button>
             <p id="hasilluas"></p>
-            <p id="hasilkel"></p>
+            <p id="hasilkel"></p> 
+            <p id="output"></p> 
         </div>
         <script src="js/script.js"></script>
     </body>
